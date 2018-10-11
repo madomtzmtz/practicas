@@ -1,0 +1,18 @@
+
+package descuento;
+
+import java.util.Scanner;
+
+public class DESCUENTO {
+
+    public static void main(String[] args) {
+        float compra;
+        float descuento;
+        System.out.println("Escribe el monto total de tu compra");
+        Scanner lee= new Scanner(System.in);
+        compra = lee.nextInt();
+        descuento = (float) (compra*.85);
+        System.out.println("tu compra con descuento es: " + descuento);
+    }
+    
+}
